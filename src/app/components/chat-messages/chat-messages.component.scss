@@ -4,6 +4,8 @@
     .message-item{
         display: flex;
         flex-direction: row;
+        position: relative;
+        border-bottom: 1px solid #dcdcdc;
         .from-user{
             padding: 10px;
             img{
@@ -14,6 +16,17 @@
         .message-text{
             flex: 1;
             padding: 10px;
+        }
+        .delete-btn{
+            height: 30px;
+            align-self: center;
+            visibility: hidden;
+        }
+
+        &:hover{
+            .delete-btn{
+                visibility: visible;
+            }
         }
     }
 }

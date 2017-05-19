@@ -4,5 +4,6 @@
       <img [src]="message.userImage">
     </div>
     <div class="message-text">{{message.text}}</div>
+    <div class="delete-btn btn btn-sm btn-danger" (click)="removeMessage(message)">x</div>
   </div>
 </div>

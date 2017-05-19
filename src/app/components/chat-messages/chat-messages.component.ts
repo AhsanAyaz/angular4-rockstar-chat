@@ -24,6 +24,10 @@ export class ChatMessagesComponent implements OnInit, AfterViewChecked {
       this.scrollToBottom();  // whenever the change detection happens. I.e. messages are changed.
   }
 
+  removeMessage(message) {
+    this.messages.splice(this.messages.indexOf(message), 1);
+  }
+
   /**
    * @author Ahsan Ayaz
    * Scrolls to bottom
