@@ -1,0 +1,8 @@
+<div class="messages-list" #messagesList>
+  <div *ngFor="let message of messages" class="message-item">
+    <div class="from-user">
+      <img [src]="message.userImage">
+    </div>
+    <div class="message-text">{{message.text}}</div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.messages-list{
+    max-height: 300px;
+    overflow-y: auto;
+    .message-item{
+        display: flex;
+        flex-direction: row;
+        .from-user{
+            padding: 10px;
+            img{
+                width: 40px;
+                border-radius: 50%;
+            }
+        }
+        .message-text{
+            flex: 1;
+            padding: 10px;
+        }
+    }
+}
