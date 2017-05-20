@@ -1,3 +1,7 @@
+
+[![CI Status](http://img.shields.io/travis/AhsanAyaz/angular4-rockstar-chat.svg?style=flat)](https://travis-ci.org/AhsanAyaz/angular4-rockstar-chat)
+
+
 # Angular4Rockstar
 
 Author: Ahsan Ayaz
