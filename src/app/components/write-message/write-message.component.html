@@ -1,6 +1,6 @@
 <div class="write-box-container">
   <div class="write-box">
-    <textarea class="chat-input" [(ngModel)]="chatInput"></textarea>
+    <textarea placeholder="Enter your message here. Press shift + enter for new line" class="chat-input" [(ngModel)]="chatInput" (keyup.enter)="sendMessage()"></textarea>
   </div>
   <div class="send-button">
     <button [disabled]="!chatInput || !chatInput.trim()" class="btn btn-primary" (click)="sendMessage()">

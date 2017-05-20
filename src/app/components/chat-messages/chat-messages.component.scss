@@ -1,11 +1,13 @@
 .messages-list{
     max-height: 300px;
     overflow-y: auto;
+    padding-bottom: 4px;
     .message-item{
         display: flex;
         flex-direction: row;
         position: relative;
         border-bottom: 1px solid #dcdcdc;
+        padding-right: 10px;
         .from-user{
             padding: 10px;
             img{
@@ -29,4 +31,13 @@
             }
         }
     }
+}
+
+#noMessagesBlock{
+    padding: 40px;
+    font-size: 20px;
+}
+
+.filters-container{
+    margin-bottom: 10px;
 }

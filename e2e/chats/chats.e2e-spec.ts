@@ -30,7 +30,6 @@ describe('angular4-rockstar App', () => {
       const messages = page.getMessages();
       const count = messages.count();
       expect(count).toBe(5);
-      browser.pause();   // TODO: [Ahsan] remove this, this is just temporary to pause the browser after finishing test for now
   });
 
 });
