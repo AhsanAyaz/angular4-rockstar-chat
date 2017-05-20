@@ -20,7 +20,7 @@ before_script:
 script: 
   - ng test --watch false
   - npm run e2e
-  - npm run build --base-href "https://ahsanayaz.github.io/angular4-rockstar-chat/"
+  - ng build -bh "https://ahsanayaz.github.io/angular4-rockstar-chat/"
 
 deploy:
   provider: pages
